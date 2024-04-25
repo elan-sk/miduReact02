@@ -125,7 +125,7 @@ function App() {
 
       {
         message && (
-          <section className="winner">
+          <section className="winner ">
             <div className="text">
               <h2>
                 {winner === false ? 'Empate' : 'Ganó'}
